@@ -20,10 +20,8 @@ body {
     color: var(--primary-text-color);
     background-color: var(--white-color);
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 3%;
-    width: 1600px;
-    margin-right: auto;
-    margin-left: auto;
+    letter-spacing: 0.03em;
+   
 
 }
 
@@ -57,8 +55,7 @@ p {
 
 .page-header {
     
-    margin-left: auto;
-    margin-right: auto;
+
     border-bottom: 1px solid #ECECEC;
     
     
@@ -68,9 +65,9 @@ p {
 
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
-    padding-left: 215px;
-    padding-right: 215px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     
 
 
@@ -85,8 +82,7 @@ p {
     line-height: 1.2;
 
 
-    margin-top: 24px;
-    margin-bottom: 25px;
+
     
 
 
@@ -127,7 +123,7 @@ p {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: 2;
+    letter-spacing: 0.02em;
     text-align: left;
 
 }
@@ -150,6 +146,8 @@ p {
     text-decoration: none;
 
     display: block;
+
+    padding: 32px 0px;
 }
 .site-nav .link:hover {
     color: var(--accent-color);
@@ -161,15 +159,14 @@ p {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 
 
     list-style: none;
     display: flex;
     align-items: center;
 
-    margin-top: 32px;
-    margin-bottom: 32px;
+
 }
 .site-nav > .item{
     margin-right: 50px;
@@ -185,6 +182,7 @@ p {
 
 .navbar {
     display: flex;
+    align-items: center;
 }
 
 .navbar > .logo {
@@ -200,8 +198,7 @@ p {
  .head-contacts {
     display: flex;
     margin-left: auto;
-    margin-top: 32px;
-    margin-bottom: 32px;
+
  }
 
 .head-contacts > .item {
@@ -225,16 +222,14 @@ p {
 
 .section.hero {
     background-color: #2F303A;
-    width: 1600px;
-    left: 0px;
-    top: 80px;
     border-radius: 0px;
-    text-align: center;
-    
-    
+    text-align: center;  
 
 }
 
+.container.hero {
+    text-align: center;
+}
 
 /* Главный заголовок */
 
@@ -243,19 +238,17 @@ p {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     text-align: center;
     margin-top: 0;
     margin-bottom: 30px;
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    padding: 0;
 
-    width: 696px;
-
-    padding: 200px 452px 30px 452;
-    top: 280px;
-    border-radius: nullpx;
-
+    max-width: 696px;
 
 }
 
@@ -264,23 +257,22 @@ p {
 
 .section.features {
     text-align: center;
-    margin-right: 215px;
-    margin-left: 215px;
-    padding: 0;
 
 }
 
 .features-content {
     display: flex;
     align-items: center;
-    padding: 0;
-    margin-top: 94px;
 }
 
 .features-items {
     align-items: center;
     
     
+}
+
+.features-items > li {
+    width: 270px;
 }
 
 .features-items > .item {
@@ -305,10 +297,6 @@ p {
     margin-bottom: 10px;
 
     
-    width: 270px;
-    left: 215px;
-    top: 774px;
-    border-radius: nullpx;
 
 
 }
@@ -326,18 +314,13 @@ p {
 
 /* Чем мы занимаемся */
 
-.container.about-div {
-    padding: 0;
-    margin: auto;
-}
+
 
 
 .section.about {
     margin-top: 0;
     margin-bottom: 0;
-    
-    padding-right: auto;
-    padding-left: auto;
+
 
     
    
@@ -355,7 +338,7 @@ p {
     text-align: center;
 
 
-    width: 376px;
+    
     padding-top: 0;
     margin-top: 0;
     margin-right: auto;
@@ -363,17 +346,14 @@ p {
     margin-bottom: 50px;
 
 
-    border-radius: nullpx;
-
-
 }
 
-.images-list.img{
-    display: flex;
-    justify-content: space-between;
+.images-list > .img {
+    display: block;
+
     margin: 0;
     padding: 0;
-    margin-bottom: 94px;
+
 
 }
 
@@ -381,6 +361,7 @@ p {
 
 .images-list > li {
     justify-content: space-between;
+    width: 370px;
 }
 .images-list > li {
     margin-right: 30px;
@@ -521,7 +502,7 @@ p {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     text-align: center;
     
     height: 50px;
@@ -595,7 +576,7 @@ p {
     font-weight: 700;
     line-height: 2.0;
     text-align: left;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     margin: 20px 24px 4px 24px;
 }
 .link-project {
