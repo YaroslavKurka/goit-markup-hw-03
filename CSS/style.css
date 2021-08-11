@@ -359,14 +359,14 @@ p {
 
 
 
-.images-list > li {
-    justify-content: space-between;
+.images-list > .img {
+
     width: 370px;
 }
-.images-list > li {
+.images-list > .img {
     margin-right: 30px;
 }
-.images-list > li:last-child {
+.images-list > .img:last-child {
     margin-right: 0;
 }
 /* Наша команда */
