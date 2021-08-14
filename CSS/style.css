@@ -553,10 +553,6 @@ img {
 
 /* Portfolio */
 
-.container.portfolio {
-    padding: 0;
-    margin: auto;
-}
 
 .list-buttons > .item {
 
@@ -609,8 +605,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     
-    padding: 0;
-    
+
 }
 
 .projects > .item:nth-child(-n + 9) {
